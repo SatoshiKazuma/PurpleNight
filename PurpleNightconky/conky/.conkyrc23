@@ -1,0 +1,47 @@
+# Enjoy, the spaces were left on purpose.
+# This conky covers the whole screen(set up accordingly) 
+background yes
+update interval 0.3
+
+double_buffer yes
+text_buffer_size 2048
+alignment top_left
+gap_x 7
+gap_y 20
+minimum_width 1000
+minimum_height 200
+maximum_width 1355
+own_window yes
+own_window_type desktop
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_argb_visual yes
+own_window_argb_value 0
+
+border_inner_margin 1
+border_outer_margin 1
+
+
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders yes
+default_shade_color 112422
+
+#override_utf8_locale yes
+use_xft yes
+xftfont UnitedKingdom:size=2
+xftalpha 0
+uppercase yes
+
+default_color A90000
+own_window_colour 000000
+TEXT
+${font LIBRARY3AM:size=35}${color af2170}${time %e %B %Y}
+${font LIBRARY3AM:size=32}${time %A}
+${font LIBRARY3AM:size=30}${time %I:%M %p}${font size=8}
+${membar 1,202}
+${membar 5,198}${font LIBRARY3AM:bold}
+$mem $memperc%
+${membar 1,194}
+
