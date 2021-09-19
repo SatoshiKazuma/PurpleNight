@@ -31,7 +31,7 @@ Dock : Plank
 
 If you have been following along, you should now have the following
 * **PurpleNight** that you cloned in a directory of your choice
-* The included **fonts** (EarthOrbiter and UnitedKingdom) installed 
+* The included **fonts** (EarthOrbiter, UnitedKingdom and Library3am) installed 
 * A **~/.conky/purplenight** directory with .conkyrc21, .conkyrc22, .conkyrc23 and conkystart.sh  
 
 ### **Configuration**
